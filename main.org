@@ -1,0 +1,99 @@
+* Godel, Escher, Bach: an Eternal Golden Braid
+** Formal systems
+*** Have
+**** Theorems
+In formal systems /theorems/ are *produced*. 
+IRL /theorems/ are statements in language shown to be true through rigour - *proven*
+Hofstadter states that "Derivation is the austere cousin of proof" p38
+
+**** Axioms
+Free theorem. Given by writer of system.
+
+**** Rules
+Rules are used to create more derivations.
+Hofstadter calls them rules of "inference" or "production".
+
+** The MU-puzzle
+*** A simple formal system with 4 rules
+Theorems are made up of the symbols M, U and I.
+
+1. If t ends with I, U can be added to the end.
+2. If t has form Mx then Mxx can be derived.
+3. If III is present it can be replaced with a U
+4. If UU is present it can be dropped.
+
+Hofstadter calls these rules of *production* or *inference*.
+
+**** imo Each rule can be split in to two stages - *inference* and *production*?
+
+| Inference   | Production     |
+|-------------+----------------|
+| ends with U | append I       |
+| has form Mx | Mxx            |
+| find III    | replace with U |
+| find UU     | drop UU        |
+
+***** TODO Confirm inference and production are good words
+Wonder if evaluation/analysis trumps inference?
+
+- Inference :: Detect affordances
+- Production :: Exploit affordances
+
+*** Playing the formal system
+
+Human's 'play' formal systems.
+Computers don't.
+
+**** Computers
+- Mechanical
+- 'do it over and over without ever complaining; or feeling bored.
+
+**** People
+- Not mechanical
+- 
+
+* 'Evaluation' definitions
+** Evaluation
+*** Definition
+the making of judgement about the amount, number, or value of something
+*** Synonyms
+- assessment
+- appraisal
+- judgement
+- gauging
+- rating
+- estimation
+- ranking
+- weighing up
+- summing up
+- consideration
+- assay
+- analysis
+- opinion
+** Evaluate
+*** Definition
+- form an idea of the amount, number or value of
+- Math :: find a numerical expression or equivalent for an equation, formula or function
+*** Synonyms
+- appraise
+- assess
+- calculate
+- check
+- classify
+- decide
+- figure out
+- gauge
+- grade
+- weigh
+- assay
+- class
+- criticise
+- estimate
+- guesstimate
+- rank
+- rate
+- reckon
+- size
+- survey
+- valuate
+- value
