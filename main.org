@@ -14,35 +14,6 @@ Free theorem. Given by writer of system.
 Rules are used to create more derivations.
 Hofstadter calls them rules of "inference" or "production".
 
-** The MU-puzzle
-*** A simple formal system with 4 rules
-Theorems are made up of the symbols M, U and I.
-
-1. If t ends with I, U can be added to the end.
-2. If t has form Mx then Mxx can be derived.
-3. If III is present it can be replaced with a U
-4. If UU is present it can be dropped.
-   
-"there is nothing to dictate which rule you should use"
-
-"'x' is not part of the formal system in the same way..." it stands for an arbitrary string.
-
-Hofstadter calls these rules of *production* or *inference*.
-
-**** imo Each rule can be split in to two stages - *inference* and *production*?
-
-| Inference   | Production     |
-|-------------+----------------|
-| ends with U | append I       |
-| has form Mx | Mxx            |
-| find III    | replace with U |
-| find UU     | drop UU        |
-
-***** TODO Confirm inference and production are good words
-
-- Inference :: Detect affordances
-- Production :: Exploit affordances
-
 *** Playing the formal system
 
 Human's can 'play' formal systems.
@@ -71,9 +42,7 @@ Computers can't don't.
 - "never notice the most obvious of facts"
 - survey
 - constantly looking for patterns
-
 *** Jumping out of the system - p37
-
 You can think *within* or *about* a formal system.
 
 Humans can jump out of system:
@@ -82,9 +51,74 @@ Humans can jump out of system:
   - Why haven't we succeeded?
   - Is goal possible?
 
+**** An observation
 
-       
+U can not be produced by MU system:
+- superficial observation - "first letter test"
+  - all theorems begin with M
+  - of limited usefulness
+    - only detects some not all non-theorems
+    - there may be lots of strings that begin with M that can't be produced
+*** Decision procedures
+- Test for theoremhood
+- Guarnteed to complete in finite amount of time
+- "concrete characterisation of of the nature of all theorems in the system."
+- characterisation may not be complete
+  - infinite time - not quite concrete enough to be decision procedure
+- Should be *guaranteed to terminate"
 
+
+** The MU-puzzle
+
+*** A simple formal system with 4 rules
+
+Theorems are made up of the symbols M, U and I.
+
+1. If t ends with I, U can be added to the end.
+2. If t has form Mx then Mxx can be derived.
+3. If III is present it can be replaced with a U
+4. If UU is present it can be dropped.
+   
+"there is nothing to dictate which rule you should use"
+
+"'x' is not part of the formal system in the same way..." it stands for an arbitrary string.
+
+Hofstadter calls these rules of *production* or *inference*.
+
+**** imo Each rule can be split in to two stages - *inference* and *production*?
+
+| Inference   | Production     |
+|-------------+----------------|
+| ends with U | append I       |
+| has form Mx | Mxx            |
+| find III    | replace with U |
+| find UU     | drop UU        |
+
+***** TODO Confirm inference and production are good words
+
+- Inference :: Detect affordances
+- Production :: Exploit affordances
+ 
+
+**** Rules in this system are lengthening and shortening
+
+*** Jumping out of the MU-puzzle
+Human's have "insights"
+
+- after generating strings at random person may notice all theorems begin with M.
+  - human would know system incapable of creating theorem 'U' - wild goose chase
+- anxiety may build when playing
+  - resulting in jumping out - to "take stock"
+
+**** Possible outside system thoughts a human could have
+- Use English
+- sketch ideas
+- work backwards
+- use short hand - e.g. letter 'x'
+- compress several steps into 1
+- modify rules to see what it gives
+- Notice numbers might pay role
+  - Double length, delete in 2s 3s
 * 'Evaluation' definitions
 ** Evaluation
 *** Definition
