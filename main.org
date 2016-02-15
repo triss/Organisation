@@ -1,5 +1,6 @@
 * Godel, Escher, Bach: an Eternal Golden Braid
 ** Formal systems
+"Formulate simple ideas very clearly so that one can use them as models in thinking about more complex ideas."
 *** Have
 **** Theorems
 In formal systems /theorems/ are *produced*. 
@@ -21,6 +22,10 @@ Theorems are made up of the symbols M, U and I.
 2. If t has form Mx then Mxx can be derived.
 3. If III is present it can be replaced with a U
 4. If UU is present it can be dropped.
+   
+"there is nothing to dictate which rule you should use"
+
+"'x' is not part of the formal system in the same way..." it stands for an arbitrary string.
 
 Hofstadter calls these rules of *production* or *inference*.
 
@@ -34,23 +39,51 @@ Hofstadter calls these rules of *production* or *inference*.
 | find UU     | drop UU        |
 
 ***** TODO Confirm inference and production are good words
-Wonder if evaluation/analysis trumps inference?
 
 - Inference :: Detect affordances
 - Production :: Exploit affordances
 
 *** Playing the formal system
 
-Human's 'play' formal systems.
-Computers don't.
+Human's can 'play' formal systems.
+Computers can't don't.
+
+"Playing the game of any formal system can become something of an art".
 
 **** Computers
 - Mechanical
-- 'do it over and over without ever complaining; or feeling bored.
+- "do it over and over without ever complaining; or feeling bored."
+- unobservant
+- never 'exit the system'
+  - unless preprogrammed
 
 **** People
 - Not mechanical
-- 
+- anxious
+- observant
+  - notice properties
+    - e.g. all theorems begin with M
+      - 'seen'
+        - understood via rules
+        - proved to self - via rules
+- never looks for pattern
+- 'infers' anything
+- "never notice the most obvious of facts"
+- survey
+- constantly looking for patterns
+
+*** Jumping out of the system - p37
+
+You can think *within* or *about* a formal system.
+
+Humans can jump out of system:
+- Although sometimes need 'prompting'
+- Ask questions:
+  - Why haven't we succeeded?
+  - Is goal possible?
+
+
+       
 
 * 'Evaluation' definitions
 ** Evaluation
