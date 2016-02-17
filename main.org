@@ -1,4 +1,12 @@
 * Godel, Escher, Bach: an Eternal Golden Braid
+:PROPERTIES:
+:TITLE:    Godel, Escher, Bach: An Eternal Golden Braid;[a Metaphoric Fugue on Minds and Machines in the Spirit of Lewis Carroll].
+:BTYPE:    book
+:CUSTOM_ID: hofstadter1980godel
+:AUTHOR:   Hofstadter, Douglas H and G{\"o}del, Kurt
+:YEAR:     1980
+:PUBLISHER: Penguin Books
+:END:
 ** Formal systems
 "Formulate simple ideas very clearly so that one can use them as models in thinking about more complex ideas."
 *** Have
@@ -164,3 +172,26 @@ the making of judgement about the amount, number, or value of something
 - survey
 - valuate
 - value
+  -
+* Hyperdimensional computing: An introduction to computing in distributed representation with high-dimensional random vectors
+:PROPERTIES:
+:TITLE:    Hyperdimensional computing: An introduction to computing in distributed representation with high-dimensional random vectors
+:BTYPE:    article
+:CUSTOM_ID: kanerva2009hyperdimensional
+:AUTHOR:   Kanerva, Pentti
+:JOURNAL:  Cognitive Computation
+:VOLUME:   1
+:NUMBER:   2
+:PAGES:    139--159
+:YEAR:     2009
+:PUBLISHER: Springer
+:END:
+* Tree Kernels: Quantifying Similarity Among Tree-Structured Data
+:PROPERTIES:
+:TITLE:  Tree Kernels: Quantifying Similarity Among Tree-Structured Data
+:AUTHOR: Causevic, Dino
+:URL:    http://www.toptal.com/machine-learning/structured-data-tree-kernels
+:YEAR:   2016
+:NOTE:   [Online; accessed 17-February-2016]
+:END:
+
