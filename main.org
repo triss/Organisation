@@ -188,10 +188,25 @@ the making of judgement about the amount, number, or value of something
 :END:
 * Tree Kernels: Quantifying Similarity Among Tree-Structured Data
 :PROPERTIES:
-:TITLE:  Tree Kernels: Quantifying Similarity Among Tree-Structured Data
-:AUTHOR: Causevic, Dino
-:URL:    http://www.toptal.com/machine-learning/structured-data-tree-kernels
-:YEAR:   2016
-:NOTE:   [Online; accessed 17-February-2016]
-:END:
+"quantifiable measurements of treaes similarities"
+Used in classifiers
+** The curse of dimensionality
+"the more the dimensions of input, the more likely the data is sparse."
+A sparse data set doesn't make a good classifier.
+** Kernel Methods
+ - measurement of similarity betweeen pairs of items
+ - linear relation in a feature space
+ - "equivalent to taking the dot product of two data points in the feature space.
 
+*** TODO remind self of dot product and positive semidefinite.
+*** Kernel functions
+- Symetric
+- positive semidefinite
+- inputs data from its origanal space
+- computable in polynomial time over size of the tree
+- detect isomorphic graphs
+**** Huge feature space can be analyzed with less complexity
+Dependant on kernal function instead of size of fetaure space
+**** TODO Kernal matrix
+- size always n x n
+- all analysis performed over this
