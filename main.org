@@ -69,7 +69,8 @@ U can not be produced by MU system:
     - there may be lots of strings that begin with M that can't be produced
 *** Decision procedures
 - Test for theoremhood
-- Guarnteed to complete in finite amount of time
+  
+- Guaranteed to complete in finite amount of time
 - "concrete characterisation of of the nature of all theorems in the system."
 - characterisation may not be complete
   - infinite time - not quite concrete enough to be decision procedure
@@ -111,7 +112,7 @@ Hofstadter calls these rules of *production* or *inference*.
 **** Rules in this system are lengthening and shortening
 
 *** Jumping out of the MU-puzzle
-Human's have "insights"
+Humans have "insights"
 
 - after generating strings at random person may notice all theorems begin with M.
   - human would know system incapable of creating theorem 'U' - wild goose chase
@@ -121,7 +122,7 @@ Human's have "insights"
 **** Possible outside system thoughts a human could have
 - Use English
 - sketch ideas
-- work backwards
+- work backward
 - use short hand - e.g. letter 'x'
 - compress several steps into 1
 - modify rules to see what it gives
@@ -188,25 +189,32 @@ the making of judgement about the amount, number, or value of something
 :END:
 * Tree Kernels: Quantifying Similarity Among Tree-Structured Data
 :PROPERTIES:
-"quantifiable measurements of treaes similarities"
+:TITLE: Tree Kernels: Quantifying Similarity Among Tree-Structured Data
+:AUTHOR:  Causevic, Dino 
+:YEAR: 2016
+:CUSTOM_ID: causevic2016kernels
+:URL: http://www.pybloggers.com/tree-kernels-quantifying-similarity-among-tree-structured-data/
+:END:
+"quantifiable measurements of trees similarities"
 Used in classifiers
 ** The curse of dimensionality
 "the more the dimensions of input, the more likely the data is sparse."
 A sparse data set doesn't make a good classifier.
 ** Kernel Methods
- - measurement of similarity betweeen pairs of items
+ - measurement of similarity between pairs of items
  - linear relation in a feature space
  - "equivalent to taking the dot product of two data points in the feature space.
 
 *** TODO remind self of dot product and positive semidefinite.
 *** Kernel functions
-- Symetric
+- Symmetric
 - positive semidefinite
-- inputs data from its origanal space
-- computable in polynomial time over size of the tree
-- detect isomorphic graphs
-**** Huge feature space can be analyzed with less complexity
-Dependant on kernal function instead of size of fetaure space
-**** TODO Kernal matrix
+- inputs data from its original space
+- Complete tree kernels can
+  - computable in polynomial time over size of the tree
+  - detect isomorphic graphs
+**** Huge feature space can be analysed with less complexity
+Dependant on kernel function instead of size of feature space
+**** TODO Kernel matrix
 - size always n x n
 - all analysis performed over this
