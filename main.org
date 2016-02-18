@@ -12,7 +12,7 @@
 *** Have
 **** Theorems
 In formal systems /theorems/ are *produced*. 
-IRL /theorems/ are statements in language shown to be true through rigour - *proven*
+IRL /theorems/ are statements in language shown to be true through rigour - *proved*
 Hofstadter states that "Derivation is the austere cousin of proof" p38
 
 **** Axioms
@@ -210,11 +210,15 @@ A sparse data set doesn't make a good classifier.
 - Symmetric
 - positive semidefinite
 - inputs data from its original space
-- Complete tree kernels can
-  - computable in polynomial time over size of the tree
-  - detect isomorphic graphs
+- Complete tree kernels: 
+  - are computable in polynomial time over size of the tree
+  - can detect isomorphic graphs
 **** Huge feature space can be analysed with less complexity
 Dependant on kernel function instead of size of feature space
-**** TODO Kernel matrix
+**** Kernel matrix
+- contains kernel for each pair of values
 - size always n x n
 - all analysis performed over this
+**** String kernels
+- Similarity measure for strings
+- trees can be converted to string representation
