@@ -222,3 +222,13 @@ Dependant on kernel function instead of size of feature space
 **** String kernels
 - Similarity measure for strings
 - trees can be converted to string representation
+
+* Hilbert's Curve, and the usefulness of infinite results in a finite world
+:PROPERTIES:
+:TITLE: Hilbert's Curve, and the usefulness of infinite results in a finite world
+:YEAR: 2016
+:CUSTOM_ID: hilbert2016youtube
+:URL: https://www.youtube.com/watch?v=DuiryHHTrjU 
+:END:
+Useful for mapping every point in space to a line or vise versa.
+
