@@ -232,3 +232,27 @@ Dependant on kernel function instead of size of feature space
 :END:
 Useful for mapping every point in space to a line or vise versa.
 
+* Why Hyperdimensional Socks Never Match
+* TODO APL demonstration 1975
+:LOGBOOK:
+CLOCK: [2016-02-23 Tue 10:51]--[2016-02-23 Tue 11:16] =>  0:25
+:END:
+https://www.youtube.com/watch?v=_DTpQ4Kk2wA
+
+- APL :: A Programming Language
+  - Array orientated language
+  - Uniform, brief
+  - Generality :: All primitive functions extend from scalars to vectors
+  - iota :: range of numbers in a vector
+  - / :: bit like reduce 
+    - +/X sums all values in X vector
+  - . :: Rows by columns 
+    - proper matrix multiplication
+  - Functions are:
+    - Monadic :: One argument
+    - Dyadic :: Two argument
+  - Rules are /few/ and /simple/
+  - *Expressions* are /executed/
+  - *Definitions* are /remembered/
+  - Precedence specified by brackets
+    - otherwise right to left

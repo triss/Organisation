@@ -1,0 +1,5 @@
+* Blind programmer
+*** TODO Request and set shader on client
+http-cljs  in a go-loop
+*** TODO Attributes/uniforms
+**** TODO Compile to c-code
